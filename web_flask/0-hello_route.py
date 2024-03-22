@@ -10,7 +10,7 @@ def hello_hbnb():
         """prints message when slash is called"""
         return "Hello HBNB!"
 
-    if __name__ == '__main__':
-            """Main Function"""
-            app.run(host='0.0.0.0', port=5000)
+if __name__ == '__main__':
+        """Main Function"""
+        app.run(host='0.0.0.0', port=5000)
 
