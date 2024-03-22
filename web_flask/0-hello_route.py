@@ -9,10 +9,10 @@ app = Flask(__name__)
 
 def hello_hbnb():
     """prints message when slash is called"""
-    return "Hello HBNB!"
+    return 'Hello HBNB!'
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     """Main Function"""
     app.run(host='0.0.0.0', port=5000)
 
